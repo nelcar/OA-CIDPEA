@@ -1,2 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
+
+FILE *doc;
+
+int main(){
+  doc = fopen("prueba.txt","w");
+  printf("ponga los nombres de los jugadores");
+}
